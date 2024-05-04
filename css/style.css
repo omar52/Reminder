@@ -16,7 +16,7 @@
     max-width: 540px;
     background-color: #fff;
     margin: 100px auto 20px;
-    padding: 40px 70px 30px;
+    padding: 40px 35px 30px;
     border-radius: 10px;
 }
 .ToDo-app h2{
@@ -82,5 +82,19 @@ ul li.checked{
 }
 ul li.checked::before{
     background-image: url(/img/checked.jpg);
+}
 
+ul li span{
+    right: 0;
+    position: absolute;
+    height: 25px;
+    width: 25px;
+    top: 17px;
+    text-align: center;
+    border-radius: 50%;
+    font-size: 22px;
+}
+
+ul li span:hover{
+    background-color: #555;
 }
